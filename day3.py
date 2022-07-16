@@ -15,3 +15,5 @@ b=[9,9,999]
 lst.append(b)
 lst.extend(b)
 print(lst)
+lst.pop()
+print(lst)

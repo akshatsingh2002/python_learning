@@ -14,9 +14,14 @@
 from unittest.mock import sentinel
 
 
-sentence = "how are you"
-print(sentence.count('o'))
-print(sentence.strip('how'))
-print(sentence.find('are'))
+# sentence = "how are you"
+# print(sentence.count('o'))
+# print(sentence.strip('how'))
+# print(sentence.find('are'))
+# print(sentence)
+first_name = 'Akshat'
+last_name = 'Singh'
+sentence = f'{first_name} {last_name}'
 print(sentence)
+
 #capatalized function to make the first character of the string capital

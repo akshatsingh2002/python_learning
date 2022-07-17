@@ -13,16 +13,16 @@
 user = int(input("enter the number to check is it prime or not "))
 print ( user)
 l = int(user/2)
-print(l)
+# print(l)
 con = int(1)
 for i in range(2,l):
     # print(i)
-    if(user%i==0):
+    if (user%i==0):
         con=0
         break
     # else:
-    #     con = 1
-if(con==0):
+     #     con = 1
+if (con==0):
     print("the number is not prime")
 else:
     print("the number is prime")

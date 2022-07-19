@@ -3,7 +3,7 @@ while j<3:
   c1 = c2 = c3 = c4 = int(0)
   name = input("enter the password ")
   l = int(len(name))
-  if l <=int(4):
+  if l <=int(16):
      print('password too short')
      j=j+1
      continue

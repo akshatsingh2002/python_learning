@@ -24,6 +24,7 @@ def frequency(s):
         
         file.write("\n")
     return map_
+    file.close()
     
         
 var = frequency('wiki.txt')

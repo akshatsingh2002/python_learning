@@ -5,8 +5,10 @@ class webserires:
         self.show_name=show_name
         self.show_length = show_length
         
+    def episode_(self):
+     return f'{self.show_name},{self.show_length}'
     
     
 obj = webserires("chernoby",1)
-print(obj.show_length)
-print(obj.show_name)
+obj2=obj.episode_()
+print(obj2)

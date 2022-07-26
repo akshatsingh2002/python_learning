@@ -23,20 +23,29 @@ class driver:
         self.name=name
         self.id=id
         self.email=email
+        print("h1")
     
     def print_info(self):
         print(self.id,self.name,self.email)
         
 class customer(driver):
     def __init__(self, id, name, email,wallet):
+        print("h2")
         super().__init__(id, name, email)
         self.wallet = wallet
     def print_info(self):
         return super().print_info()
     
+class customer1(customer):
+    def __init__(self, id, name, email, wallet):
+        super().__init__(id, name, email, wallet)
+    def print_info(self):
+        return super().print_info()
     
     
+obj1 = customer1(1,"akshat","google.com","2 rs")
 obj1 = customer(1,"akshat","google.com","2 rs")
+
 obj2 = driver(22,"arpit","bnaiya")
 obj2.print_info()
 obj1.print_info()

@@ -1,2 +1,1 @@
-print(data)
-# print(data2.prettify)
+print(data2.prettify)

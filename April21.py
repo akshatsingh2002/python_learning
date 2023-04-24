@@ -64,8 +64,8 @@
 #         print("*",end="")
         
 #     print("")
-
-# for i in range(8,0,-2):
+# i = 0
+# for i in range(8,0,-i//2):
 #     for j in range(0,i):
 #         print("*$",end="")
         

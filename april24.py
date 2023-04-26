@@ -38,12 +38,16 @@
 #     elif(ord(i)>=65 and ord(i)<=90 and i!='A' and i!='E'and i!='I'and i!='O'and i!='U'):
 #         print(i)
 
-import copy
-myList1 = [1,2,3,4,5]
-print(id(myList1))
-print(myList1)
-mylist2 = copy.copy(myList1)
-mylist2.append(10)
-print(myList1)
-print(id(mylist2))
-print(mylist2)
+# import copy
+# myList1 = [1,2,[3,4]]
+# myList2 = copy.copy(myList1)
+# print(myList2)
+# myList1[2][1]=22
+# print(myList1)
+# print(myList2)
+
+
+x = 19919199119
+y = 19919199119
+print(id(x))
+print(id(y)) 

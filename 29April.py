@@ -23,3 +23,38 @@
 #         temp = ''
         
 # print(mySet)
+
+
+val = input("Enter the string")
+con1=0
+con2=0
+con3=0
+con4=0
+if(len(val)<6 or len(val)>15):
+    print("String length should be between 6 and 15")
+
+else:
+        for i in val :
+            if(ord(i)>=48 and ord(i)<=57):
+                con1 = 1
+            if(ord(i)>=65 and ord(i)<=90):
+                con2 = 1
+            if(ord(i)>=97 and ord(i)<=122):
+                con3 = 1
+            if(i=='@' or i=='!' or i=='!' or i=='$'):
+                con4 = 1
+        
+        if(con1==0):
+            print("user should provide at least one numeric value")
+        elif(con2==0):
+            print("user should provide at least one upper case letter") 
+        elif(con3==0):
+            print("user should provide at least one lower case letter")
+        elif(con4==0):
+            print("user should provide at least one speical character")
+        else:
+            print("Password created successfully")   
+
+
+            
+            

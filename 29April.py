@@ -38,6 +38,7 @@
 #             if(ord(i)>=48 and ord(i)<=57):
 #                 con1 = 1
 #             if(ord(i)>=65 and ord(i)<=90):
+
 #                 con2 = 1
 #             if(ord(i)>=97 and ord(i)<=122):
 #                 con3 = 1

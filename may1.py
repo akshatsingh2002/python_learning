@@ -26,7 +26,7 @@
 for i in range(0,5):
     for k in range(0,i):
         print(" ",end='')
-    for j in range(i,4*2-1):
+    for j in range(i*2,4*2-1):
         if(j%2==0):
             print("*",end='')
         else:

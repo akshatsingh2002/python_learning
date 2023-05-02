@@ -54,3 +54,14 @@
 #     print(max*min)
     
     
+val1 = input("Enter first number")
+val1 = int(val1)
+val2 = input("Enter second number")
+val2 = int(val2)
+
+if val1>val2:
+    max = val1
+    min = val2
+else:
+    max = val2
+    min = val1

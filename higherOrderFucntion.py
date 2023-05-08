@@ -24,5 +24,8 @@
 
 # circle(9,area,cir)
 
-lst = list(map(lambda x:x%2!=0,[1,2,3,4,5,6]))
-print(lst)
+# lst = list(map(lambda x:x%2!=0,[1,2,3,4,5,6]))
+# print(lst)
+
+lst = [{1:'akshat'},{2:[1,2,3,4]}]
+print(lst[1])

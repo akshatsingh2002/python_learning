@@ -12,6 +12,13 @@
 # text = f.readline()
 # print(text)
 
-with open('testfile2.txt','a+') as f:
-    f.write("This is the test content")
-    print(f.read())
+# with open('testfile2.txt','a') as f:
+#     print(f.tell())
+
+# with open('testfile2.txt','a') as f:
+#     text = f.read()
+#     print(text)
+    
+# with open('testfile2.txt','x') as f:
+#     text = f.read()
+#     print(text)

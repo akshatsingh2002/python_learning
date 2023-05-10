@@ -6,8 +6,12 @@
 # print(text)
 # f.close()
 
-with open('testfile.txt','r') as f:
-    text = f.readlines()
-    print(text)
+# with open('testfile.txt','r') as f:
+#     text = f.readlines()
+#     print(text)
 # text = f.readline()
 # print(text)
+
+with open('testfile2.txt','a+') as f:
+    f.write("This is the test content")
+    print(f.read())

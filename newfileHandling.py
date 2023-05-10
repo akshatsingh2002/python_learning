@@ -22,3 +22,12 @@
 # with open('testfile2.txt','x') as f:
 #     text = f.read()
 #     print(text)
+
+age = int(input("Enter the age of the candiate"))
+try:
+    if age < 18 :
+        raise Exception
+    else:
+        print("valid age")
+except Exception as e:
+    print(type(e))  

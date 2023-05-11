@@ -50,3 +50,22 @@
         
 # obj = child2()
 # obj.info2()
+
+
+class first:
+    def info(self):
+        print("this is the first class")
+        
+class second:
+    def info2(self
+              ):
+        print("this is the second class")
+        
+class third(first,second):
+    def final(self):
+        super().info()
+        super().info2()
+        
+        
+obj = third()
+obj.final()

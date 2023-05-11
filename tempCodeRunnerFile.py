@@ -1,1 +1,1 @@
-    
+print(CounterValue.count)

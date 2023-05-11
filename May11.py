@@ -1,10 +1,10 @@
 class driver:
     def __init__(self,name,number):
-        self.name = name 
+        self.fname = name 
         self.number = number
         
     def info(self):
-        print(self.name,self.number)
+        print(self.fname,self.number)
         
 
 class customer(driver):
@@ -18,4 +18,4 @@ class customer(driver):
     
 c1 = customer("akshat",123,"akshat@gmail.com")
 c1.info()
-print(c1.name)
+print(c1.fname)

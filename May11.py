@@ -34,17 +34,17 @@
 
 
 # class DataScience:
-#     def info():
+#     def info(self):
 #         print("this is the datascience class")
         
 # class child(DataScience):
-#     def info1():
+#     def info1(self):
 #         super.info()
         
         
 
 # class child2(child):
-#     def info2():
+#     def info2(self):
 #          super.info1()
         
         

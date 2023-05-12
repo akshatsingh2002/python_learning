@@ -29,3 +29,25 @@ a1 = Addnumber(10,20)
 a2 = Addnumber(10,20)
 # print(a1+a2)
 a1+a2
+print(a1)
+
+
+# from abc import ABC,abstractmethod
+# class dog:
+#     @abstractmethod
+#     def info(self):
+#         pass
+        
+        
+# class fish(ABC):
+    
+#     def info(self):
+#         print("i have zero leg")    
+    
+#     def info2(self):
+#         print("i am a fish")
+        
+        
+# obj = fish()
+# obj.info()
+# obj.info2()

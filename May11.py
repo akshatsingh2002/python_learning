@@ -69,3 +69,34 @@
         
 # obj = third()
 # obj.final()
+
+
+# class base:
+#     def info(self):
+#         print("this is the base class")
+        
+# class first(base):
+#     def info(self):
+#         print("this is the first class")
+#         pass
+    
+# class second(base):
+#    def info(self):
+#        print("this is the second  class")
+#        return super().info()
+    
+# class third(base):
+#     def info(self):
+        
+#         print("this is the third class")
+#         pass
+    
+# obj1 = first()
+# obj1.info()
+
+# obj2 = second()
+# obj2.info()
+
+# # obj3 = third()
+# obj3.info()
+

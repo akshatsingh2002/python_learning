@@ -52,20 +52,20 @@
 # obj.info2()
 
 
-class first:
-    def info(self):
-        print("this is the first class")
+# class first:
+#     def info(self):
+#         print("this is the first class")
         
-class second:
-    def info2(self
-              ):
-        print("this is the second class")
+# class second:
+#     def info(self
+#               ):
+#         print("this is the second class")
         
-class third(first,second):
-    def final(self):
-        super().info()
-        super().info2()
+# class third(second,first):
+#     def final(self):
+#         super().info()
+#         super().info()
         
         
-obj = third()
-obj.final()
+# obj = third()
+# obj.final()

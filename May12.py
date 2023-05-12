@@ -13,8 +13,8 @@ class Addnumber:
         self.y=y
         
         
-    def __repr__(self):
-        print("this repr is working",self.x,self.y)
+    def __str__(self):
+        return f"this repr is working ,self.x,self.y)"
    
         
     def __add__(self,obj):

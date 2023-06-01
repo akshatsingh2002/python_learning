@@ -28,3 +28,5 @@ import pandas as pd
 df = pd.DataFrame({1:[1,2,3],2:[3,4,5]})
 print(df)
 df.to_excel("pandas.xlsx")
+df2 = pd.read_excel("pandas.xlsx")
+print(df2)

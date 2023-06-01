@@ -1,1 +1,1 @@
-numpy.transpose(arr2)
+print(s1["Charmander"])

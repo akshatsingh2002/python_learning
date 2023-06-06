@@ -17,5 +17,9 @@ df.dropna(how="any",inplace=True)
 # print(df[(df["Position"]=="PG")].count())
 
 
-print(df.groupby("Position").count())
-print(df.groupby("Position").first())
+# print(df.groupby("Position").count())
+# print(df.groupby("Position").first())
+df = df.groupby("Position")
+print(df.min())
+df2 = df.get_group("PG")
+print(df2)

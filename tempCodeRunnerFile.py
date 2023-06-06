@@ -1,1 +1,2 @@
-print(s1["Charmander"])
+print(df.info())
+# print(df["Rank"].nunique())
